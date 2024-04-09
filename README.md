@@ -75,9 +75,7 @@ restart - Restart the bot (Admin Only)
 
 
 
-### ❤️ RESPECTING ❤️
-- [JishuDeveloper](https://github.com/JishuDeveloper)
-- [Madflix Official](https://github.com/jishusinha)
+
 
 ### 😍 BOTS CHANNEL 😍
 - [Marsel Botz](https://t.me/Marsel_Botz)
