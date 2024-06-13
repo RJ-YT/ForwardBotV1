@@ -2,12 +2,12 @@ echo "Cloning Repo...."
 if [ -z $BRANCH ]
 then
   echo "Cloning main branch...."
-  git clone https://github.com/JishuDeveloper/Ultra-Forward-Bot JishuDeveloper/Ultra-Forward-Bot
+  git clone https://github.com/RJ-YT/ForwardBotV1 RJ-YT/ForwardBotV1
 else
   echo "Cloning $BRANCH branch...."
-  git clone https://github.com/JishuDeveloper/Ultra-Forward-Bot -b $BRANCH /Ultra-Forward-Bot
+  git clone https://github.com/RJ-YT/ForwardBotV1 -b $BRANCH /ForwardBotV1
 fi
-cd JishuDeveloper/Ultra-Forward-Bot
+cd RJ-YT/ForwardBotV1
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 main.py
