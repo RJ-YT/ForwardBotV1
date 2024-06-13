@@ -10,7 +10,7 @@ import os
 
 class Config:
     API_ID = os.environ.get("API_ID", "29478734")
-    API_HASH = os.environ.get("API_HASH", "8bd53e36eceada3329fbe46d9b961d1f"")
+    API_HASH = os.environ.get("API_HASH", "8bd53e36eceada3329fbe46d9b961d1f")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6881166251:AAF0UF0x-B5jSUym6g4zOcEWeXrWb9x8_ek") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "forward-bot") 
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://nikzgod:nikzgod@cluster0.lqn4wau.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
